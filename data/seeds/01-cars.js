@@ -6,7 +6,7 @@ const cars = [
     model: "328i",
     mileage: 160000,
     title: "clean",
-    transmision: "automatic",
+    transmission: "automatic",
   },
   {
     vin: "2222222222222",
