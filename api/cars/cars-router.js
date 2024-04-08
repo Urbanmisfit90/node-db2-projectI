@@ -28,6 +28,7 @@ router.post(
    checkCarPayload,
    checkVinNumberValid,
    checkVinNumberUnique,
+
 async (req, res, next) => {
   try {
     const cars = await Car.create(req.body)
